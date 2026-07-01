@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Estudio - Examenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div style="font-weight: bold; letter-spacing: 2px;">STUDYING</div>
+        <nav class="nav-tabs">
+            <a href="index.html" class="tab-link">Inicio</a>
+            <a href="formulario.html" class="tab-link">Formulario</a>
+            <a href="examenes.html" class="tab-link active">Examenes</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2 style="margin-top: 0; font-size: 1.2rem; margin-bottom: 20px;">Nuevo Exámen</h2>
+            
+            <div class="form-group">
+                <label>Nombre de la Materia</label>
+                <input type="text" placeholder="Ej: Inglés">
+            </div>
+
+            <div class="form-group">
+                <label>Fecha de Examen</label>
+                <input type="date">
+            </div>
+
+
+
+            <button class="btn">Guardar Exámen</button>
+
+            <h3 style="margin-top: 35px; font-size: 0.9rem; color: var(--texto-suave); letter-spacing: 1px;">MIS MATERIAS GUARDADAS</h3>
+            
+            <div class="materia-item">
+                <div>
+                    <strong>Matemática</strong><br>
+                    <small style="color: var(--texto-suave);">Examen: 15/06</small>
+                </div>
+                <span style="color: var(--acento); font-weight: bold;">1 h</span>
+            </div>
+            
+            <div class="materia-item">
+                <div>
+                    <strong>Inglés</strong><br>
+                    <small style="color: var(--texto-suave);">Examen: 20/06</small>
+                </div>
+                <span style="color: var(--acento); font-weight: bold;">30 min</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
